@@ -34,10 +34,10 @@ print(result)  # Output: SPECIAL
 
 
 📂 Files
-	•	sort.py: main function
-	•	test_sort.py: test suite using pytest
-	•	README.md: this documentation
-	•	requirements.txt: project dependencies
+- sort.py: main function
+- test_sort.py: test suite using pytest
+- README.md: this documentation
+- requirements.txt: project dependencies
 
 ⸻
 
