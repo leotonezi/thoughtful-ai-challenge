@@ -26,7 +26,7 @@ This project implements a function for Thoughtful’s robotic arm to classify pa
 ## 🚀 Usage
 
 ```python
-from box_sort import sort
+from sort import sort
 
 result = sort(100, 100, 100, 10)
 print(result)  # Output: SPECIAL
@@ -57,7 +57,7 @@ pip install pytest
 
 pytest
 
-This will run all tests defined in test_box_sort.py, including:
+This will run all tests defined in test_sort.py, including:
 	•	✅ Standard packages
 	•	✅ Bulky (volume or dimension)
 	•	✅ Heavy
