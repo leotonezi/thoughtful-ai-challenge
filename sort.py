@@ -3,7 +3,7 @@ def sort(width, height, length, mass):
   heavy = False
 
   try:
-    if(width * height * length >= 1000000):
+    if(width * height * length >= 1000000) or ((width >= 150) or (height >= 150) or (length >= 150)):
       bulky = True
     
     if(mass >= 20):
@@ -19,5 +19,3 @@ def sort(width, height, length, mass):
   except Exception as e:
     print('Error: ', str(e))
     raise
-
-
