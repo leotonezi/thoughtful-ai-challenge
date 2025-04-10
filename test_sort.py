@@ -10,6 +10,18 @@ def test_special_heavy():
 def test_special_bulky():
     assert sort(1000, 1000, 1, 5) == 'SPECIAL'
 
+def test_special_bulky_width():
+    assert sort(150, 10, 10, 5) == 'SPECIAL'
+
+def test_special_bulky_height():
+    assert sort(10, 150, 10, 5) == 'SPECIAL'
+
+def test_special_bulky_length():
+    assert sort(10, 10, 150, 5) == 'SPECIAL'
+
+def test_edge_case_dimension_exactly_150():
+    assert sort(150, 150, 150, 5) == 'SPECIAL'
+
 def test_rejected():
     assert sort(1000, 1000, 1, 25) == 'REJECTED'
 
