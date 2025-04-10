@@ -69,9 +69,14 @@ This will run all tests defined in test_sort.py, including:
 
 If you'd like to continue improving this project, here are some ideas:
 
-•⁠  ⁠[ ] *Input validation*: Add checks to reject negative or non-numeric inputs
-•⁠  ⁠[ ] *Structured return*: Instead of just returning a string, return a dictionary with detailed classification info (e.g. ⁠ { classification: "SPECIAL", bulky: True, heavy: False } ⁠)
-•⁠  ⁠[ ] *Batch processing*: Add support for classifying multiple packages at once
-•⁠  ⁠[ ] *Logging*: Log which rule triggered each classification for better traceability
-•⁠  ⁠[ ] *API wrapper*: Create a simple FastAPI endpoint to expose the ⁠ sort() ⁠ function as a service
-•⁠  ⁠[ ] *More test cases*: Add edge case and stress tests (e.g. extremely large or malformed input)
+*Input validation*: Add checks to reject negative or non-numeric inputs
+
+*Structured return*: Instead of just returning a string, return a dictionary with detailed classification info (e.g. ⁠ { classification: "SPECIAL", bulky: True, heavy: False } ⁠)
+
+*Batch processing*: Add support for classifying multiple packages at once
+
+*Logging*: Log which rule triggered each classification for better traceability
+
+*API wrapper*: Create a simple FastAPI endpoint to expose the ⁠ sort() ⁠ function as a service
+
+*More test cases*: Add edge case and stress tests (e.g. extremely large or malformed input)
